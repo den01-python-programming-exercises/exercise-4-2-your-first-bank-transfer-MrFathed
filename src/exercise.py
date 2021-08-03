@@ -1,3 +1,5 @@
+from account import Account
+
 def main():
     #write your code below this line
     matt_account = Account("Matthews account", 1000)
@@ -10,5 +12,4 @@ def main():
     print(my_account)
 
 if __name__ == '__main__':
-    from account import Account
     main()
